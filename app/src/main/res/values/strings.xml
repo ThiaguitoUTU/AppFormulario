@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myApphomework</string>
+    <string name="nombre">Nombre</string>
+    <string name="hint_name">Name</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Email</string>
+</resources>
