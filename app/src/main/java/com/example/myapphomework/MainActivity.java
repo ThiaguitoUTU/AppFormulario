@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    String name, TAG= "Test";
+    String user, TAG= "Test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

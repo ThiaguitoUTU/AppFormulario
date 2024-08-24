@@ -12,22 +12,18 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="0dp">
 
         <TextView
-            android:id="@+id/user"
-            android:text="@string/nombre"
+            android:id="@+id/formulario"
+            android:text="@string/formulario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:paddingBottom="8dp"/>
-
-        <EditText
-            android:id="@+id/name"
-            android:hint="@string/hint_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"/>
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
@@ -35,11 +31,34 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/user"
+            android:text="@string/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="@string/hint_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
 
         <TextView
             android:id="@+id/email"
-            android:text="@string/email_label"
+            android:text="@string/password_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
@@ -47,11 +66,54 @@
 
         <EditText
             android:id="@+id/correo"
-            android:hint="@string/email_hint"
+            android:hint="@string/password_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp"/>
+            android:padding="25dp"/>
 
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+
+
+        <Button
+            android:id="@+id/btncambiarContrasena"
+            android:text="@string/cambiarContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btncrear"
+            android:text="@string/crear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp" />
+
+    </RelativeLayout>
+
+
+
+
 
 </LinearLayout>

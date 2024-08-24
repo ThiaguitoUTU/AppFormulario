@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">myApphomework</string>
-    <string name="nombre">Nombre</string>
-    <string name="hint_name">Name</string>
-    <string name="email_label">Email</string>
-    <string name="email_hint">Email</string>
+    <string name="formulario">Iniciar Sesión</string>
+    <string name="user">Usuario</string>
+    <string name="hint_user">User:</string>
+    <string name="password_label">Contraseña</string>
+    <string name="password_hint">password:</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="cambiarContrasena">¿Olvidaste tu contraseña?</string>
+    <string name="crear">Crear cuenta nueva</string>
+
+
+
+
 </resources>
