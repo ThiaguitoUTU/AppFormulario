@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 String nombre = name.getText().toString();
                 String contrasena = password.getText().toString();
 
-                if (nombre.isEmpty() || contrasena.isEmpty()) { // Cierra el paréntesis
-                    Toast.makeText(MainActivity.this, "Por favor complete todos los campos", Toast.LENGTH_SHORT).show();
+                if (nombre.isEmpty() || contrasena.isEmpty()) { //
+                    Toast.makeText(MainActivity.this, "Por favor complete todos los datos", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(MainActivity.this, "Registro exitoso", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
                 }
             }
         });
