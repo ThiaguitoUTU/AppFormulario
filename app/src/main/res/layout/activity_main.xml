@@ -57,7 +57,7 @@
         android:padding="30dp">
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/password1"
             android:text="@string/password_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:paddingBottom="8dp"/>
 
         <EditText
-            android:id="@+id/correo"
+            android:id="@+id/password"
             android:hint="@string/password_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
