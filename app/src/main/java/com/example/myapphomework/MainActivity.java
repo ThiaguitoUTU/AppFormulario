@@ -1,5 +1,6 @@
 package com.example.myapphomework;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -41,13 +42,23 @@ public class MainActivity extends AppCompatActivity {
                 String nombre = name.getText().toString();
                 String contrasena = password.getText().toString();
 
-                if (nombre.isEmpty() || contrasena.isEmpty()) { //
+                if (nombre.isEmpty() || contrasena.isEmpty()) {
                     Toast.makeText(MainActivity.this, "Por favor complete todos los datos", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(MainActivity.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
+                    // Crear un Intent para iniciar MainActivity2
+                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                    // Agregar datos al Intent
+                    intent.putExtra("NAME", nombre);
+                    intent.putExtra("PASSWORD", contrasena);
+                    // Iniciar MainActivity2
+                    startActivity(intent);
                 }
             }
         });
+
+
+
+
     }
 
     @Override
