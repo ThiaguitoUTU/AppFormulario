@@ -1,3 +1,4 @@
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -32,7 +33,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -40,4 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("com.airbnb.android:lottie:6.5.0") // Aquí, asegúrate de usar comillas dobles y paréntesis correctos
+    implementation("de.hdodenhof:circleimageview:3.1.0") // Añadido círculo de imagen
 }

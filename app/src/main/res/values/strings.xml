@@ -8,6 +8,9 @@
     <string name="login">Iniciar sesión</string>
     <string name="cambiarContrasena">¿Olvidaste tu contraseña?</string>
     <string name="crear">Crear cuenta nueva</string>
+    <string name="welcome_message">Bienvenido</string>
+    <string name="password_label">Password: </string>
+    <string name="open_camera_button">Abrir Cámara</string>
 
 
 </resources>
